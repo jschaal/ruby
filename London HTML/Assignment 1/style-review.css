@@ -1,0 +1,17 @@
+div {
+	/*
+	background: red;
+	*/
+	font-family:Times New Roman;
+	font-family:Helvetica;
+	font-size: 300%;
+	color: blue;
+}
+
+.changemeagain {
+	color:yellow;
+}
+.changeme {
+	color:red;
+}
+

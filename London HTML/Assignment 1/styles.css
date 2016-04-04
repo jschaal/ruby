@@ -1,0 +1,14 @@
+h1 {
+	text-align: center; /* center the header text */
+	color: blue; /* Change the header font color to Blue */
+	font-style: italic; /* Change the header font type to italic */
+}
+
+h1:hover {
+	color: red; /* Change the header font color to red when hovering over it*/	
+	font-size: 250%; /* Increase the header font size when hovering */
+}
+
+*Styling the h1 tag*/h1{	/* Below code change background color of h1 */	background-color: black;	/* Below code change  color of h1 */	color: white;	/* Below code set padding of h1  */	padding: 10px;	/* Below code change align h1 to center */	text-align: center;	/* added a font from google fonts */	font-family: 'Slabo 27px', serif;}
+/* When user hover mouse over the h1 */
+h1:hover{	/*background color changes to gray and color remains black*/	background-color: gray;	color: black;}
