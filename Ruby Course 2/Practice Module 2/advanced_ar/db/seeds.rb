@@ -16,3 +16,13 @@ Person.create! [
   { first_name: "Bill", last_name: "Gates", age: 75, login: "bill", pass: "windows3.1" },
   { first_name: "LeBron", last_name: "James", age: 30, login: "bron", pass: "need more rings" }
 ]
+
+Person.first.jobs.create! [
+  { title: "Developer", company: "MS", position_id: "#1234" },
+  { title: "Developer", company: "MS", position_id: "#1235" }
+]
+
+Person.last.jobs.create! [
+  { title: "Sr. Developer", company: "MS", position_id: "#5234" },
+  { title: "Sr. Developer", company: "MS", position_id: "#5235" }
+]
